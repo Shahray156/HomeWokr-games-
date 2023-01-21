@@ -19,7 +19,6 @@
     align-items: center;
     color: #FFFFFF;
     height: 125.01px;
-    width: 788.78px;
 }
 .box {
     background-image: url(img/top.png);
@@ -73,11 +72,11 @@
   grid-template-columns: 1fr 1fr 1fr;
 
 }
-.for__item {
-    
-    
+.for__item {  
     margin-left: 32px;
     margin-top: 1236.36px;
+    display: flex;
+    align-items: center;
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
@@ -88,6 +87,7 @@
         background-image: url(img/game1.png);
         width: 379px;
         height: 300px;
+        display: flex;
         margin-top: 128px;
         margin-left: 120px;
         margin-bottom: 128px;
@@ -99,9 +99,7 @@
       
       .for__game2 {
         background-image: url(img/game2.png);
-        width: 378px;
-        height: 300px;
-        left: 531px;
+        display: flex;
         margin-top: 128px;
         margin-left: 32px;
         margin-bottom: 128px;
@@ -112,12 +110,11 @@
       
       .for__game3 {
         background-image: url(img/game3.png);
-        width: 379px;
-        height: 300px;
-        left: 941px;
+        
         margin-top: 128px;
         margin-left: 32px;
         margin-bottom: 128px;
+        display: flex;
      background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game3.png);
         border-radius: 16px;
       }
